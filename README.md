@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/HadesKerbecs/go.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HadesKerbecs/go.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Exemplo</title>
+    <link href="desig.css" rel="stylesheet">
+</head>
+<body>
+        <button>Explicação</button>
+          <br>
+          <div>
+              <strong>O código feito tem como função inserir um usuário, e caso ele já tenho sido utilizado, será mandado uma
+                mensagem dizendo isso. Caso contrário ele será inserido e no código seguinte imprimira todos os usuários.</strong> 
+            </div>
+            <br>
+            <button>Código</button>
+  <br>
+  <div>
+              <strong>usuarios={'Eduardo':['09/06/2002','maq5'],
+                  <br>
+                  &nbsp &nbsp &nbsp    'Luiz':['15/10/2203','maq4'],
+                <br>
+                &nbsp &nbsp &nbsp     'Gustavo':['23/11/2000','maq6']}
+        <br>
+        usu = input('Digite um nome: ')
+        <br>
+        if usu not in usuarios.keys():
+        <br>
+        &nbsp &nbsp &nbsp        data = input('Digite uma data: ')
+                <br>
+                &nbsp &nbsp &nbsp        maq = input('Digite uma máquina: ')
+                <br>
+                &nbsp &nbsp &nbsp        usuarios[usu] = [data, maq]
+                <br>
+                &nbsp &nbsp &nbsp        print(usuarios)
+                <br>
+        else:
+        <br>
+        &nbsp &nbsp &nbsp    print('Usuário já existe!')
+            <br>
+        print('\n')
+        <br>
+        for chave in usuarios.keys():
+        <br>
+        &nbsp &nbsp &nbsp        print('Usuários: ', chave)</strong> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+</body>
+</html>
